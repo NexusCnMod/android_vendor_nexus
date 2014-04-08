@@ -67,9 +67,4 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/nexus/overlay/common
 
 
 # SU Support
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/bin/su:system/xbin/daemonsu \
-    vendor/nexus/prebuilt/bin/su:system/xbin/su \
-    vendor/nexus/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/nexus/prebuilt/etc/install-recovery.sh:system/etc/install-recovery.sh
-    vendor/nexus/prebuilt/apk/Superuser.apk:system/app/Superuser.apk 
+SUPERUSER_EMBEDDED := true
