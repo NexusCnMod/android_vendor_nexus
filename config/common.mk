@@ -68,7 +68,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/nexus/overlay/common
 
 # SU Support
 PRODUCT_COPY_FILES += \
-    vendor/omni/prebuilt/bin/su:system/xbin/daemonsu \
-    vendor/omni/prebuilt/bin/su:system/xbin/su \
-    vendor/omni/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/omni/prebuilt/apk/Superuser.apk:system/app/Superuser.apk 
+    vendor/nexus/prebuilt/bin/su:system/xbin/daemonsu \
+    vendor/nexus/prebuilt/bin/su:system/xbin/su \
+    vendor/nexus/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/nexus/prebuilt/apk/Superuser.apk:system/app/Superuser.apk 
