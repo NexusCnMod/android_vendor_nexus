@@ -1,4 +1,7 @@
-# Omni Extras
+# Nexus Extras
+
+# Superuser
+import /init.superuser.rc
 
 on init
     export TERMINFO /system/etc/terminfo
