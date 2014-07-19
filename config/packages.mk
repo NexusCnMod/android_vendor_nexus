@@ -10,7 +10,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Apollo \
     audio_effects.conf \
-    DashClock \
     DSPManager \
     libcyanogen-dsp \
     MonthCalendarWidget \
