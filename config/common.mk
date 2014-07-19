@@ -58,8 +58,8 @@ PRODUCT_COPY_FILES += \
 
 		
 # Dashclock 	
-PRODUCT_COPY_FILES += \	
-	vendor/nexus/prebuilt/app/DashClock.apk:system/app/DashClock.apk	
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/app/DashClock.apk:system/app/DashClock.apk	
 
 
 # Additional packages
